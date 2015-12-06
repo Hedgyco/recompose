@@ -4,7 +4,7 @@ import { Observable } from 'rx'
 import { toClass, withState, compose, branch } from 'recompose'
 import identity from 'lodash/utility/identity'
 import createSpy from 'recompose/createSpy'
-import { observeProps, createEventHandler } from 'rx-recompose'
+import { observeProps, createEventHandler } from 'meteor-recompose'
 
 import {
   Simulate,

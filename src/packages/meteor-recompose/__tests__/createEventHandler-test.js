@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { createEventHandler } from 'rx-recompose'
+import { createEventHandler } from 'meteor-recompose'
 
 describe('createEventHandler()', () => {
   it('creates a subject that broadcasts new values when called as a function', () => {
